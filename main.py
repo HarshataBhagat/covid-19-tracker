@@ -51,7 +51,7 @@ def reload():
 get_covid_data()    
 
 
-def notifications():
+def notifications()
     while True:
         plyer.notification.notify(
             title = "COVID-19 DATA TRACKER",
@@ -60,7 +60,7 @@ def notifications():
             app_icon = "corona.ico"
             
         )
-        time.sleep(30)
+        time.sleep(3600)
 
 
 root = tk.Tk() 
